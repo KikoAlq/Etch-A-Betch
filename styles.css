@@ -1,9 +1,9 @@
 #Box {
     background-color: rgb(184, 34, 34);
     max-width: 100vh;
-    max-height: 100vh;
+    max-height: 80vh;
     width: 100vh;
-    height: 100vh;
+    height: 80vh;
     overflow: auto;
     display: flex;
     flex-wrap: wrap;
@@ -11,9 +11,9 @@
 }
 
 body {
-    height: 100vh;
+    height: 80vh;
     width: 100vh;
-    max-height: 100vh;
+    max-height: 80vh;
     max-width: 100vh;
     background-color: rgb(184, 34, 34);
 }
@@ -21,4 +21,16 @@ body {
 html {
     color: white;
     font-family: Helvetica, Arial, sans-serif;
+}
+
+.cum {
+    background-color: rgb(109, 103, 86);
+    color: grey;
+    border: 1px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 25vh;
+    height: 25vh;
+    max-width: 25vh;
+    max-height: 25vh;
 }
